@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images1"
+    android:gravity="center"
+    android:padding="30dp"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:text="REGISTER"
+        android:textColor="@color/colorAccent"
+        android:textSize="40sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/reg_fullname"
+        android:hint="FullName"
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/reg_user"
+        android:hint="UserName"
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/reg_password"
+        android:hint="Password"
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/reg_conf_password"
+        android:hint="Confirm Password"
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+        <!--<TextView
+            android:text="Birth-Date"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    <DatePicker
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />-->
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/submit"
+        android:text="SUBMIT"
+        android:layout_marginRight="10dp"
+        android:onClick="addData"
+        android:background="@color/colorAccent"
+        android:layout_width="100dp"
+        android:layout_height="50dp" />
+    <Button
+        android:id="@+id/delete"
+        android:text="LOGIn"
+        android:layout_marginLeft="10dp"
+        android:onClick="backLog"
+        android:background="@color/colorAccent"
+        android:layout_width="100dp"
+        android:layout_height="50dp" /></LinearLayout>
+
+</LinearLayout>
